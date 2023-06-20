@@ -1,0 +1,79 @@
+body{
+    
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+header {
+    background-color: rgb(73, 0, 141);
+    height: 40px;
+    padding: 1em;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    margin-top: 5px;
+}
+
+button {
+    background-color: rgb(33, 32, 82);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all ease 0.3s;
+    width: 15%;
+    margin: 10px;
+
+    
+}
+
+button:hover {
+    background-color: rgb(24, 15, 32);
+    
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 1em;
+    border: 1px solid rgb(236, 233, 233);  
+}
+
+input {
+    border: 1px solid rgb(226, 213, 213); 
+    margin-top: 10px;
+    padding: 3px;
+}
+
+.content {
+    margin-top: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid grey;
+    width: 100%;
+}
+
+table th {
+    background-color: rgb(90, 86, 86);
+}
+
+table th, td {
+    text-align: left;
+    padding: 1px 5px;
+}
+
+.center {
+    text-align: center;
+}
